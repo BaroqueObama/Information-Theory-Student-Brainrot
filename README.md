@@ -91,6 +91,7 @@ Google Sheets
   - Standardize the cumulative quiz scores.  
   - Standardize the amount of time each respondent spent watching the brain rot video.  
   - Take the sum of the standardized quiz scores and standardized watch times to obtain the brain rot score of each individual.  
+  -  ![Distribution of Combined Standardized Brainrot Scores](images/BrainrotScores.png)  
 ### Hilbert-Schmidt Independence Criterion Test:
 - **Apply Kernel Functions (rbf, linear, and poly) for both the combined features and the brain rot scores.**  
   - Sklearn’s pairwise_kernels was used for this  
@@ -122,6 +123,7 @@ Google Sheets
   - **Kernel poly**  
     - HSIC value: 19.29296405224944  
     - P-value: 0.1487  
+  - ![Distribution of HSIC Values](images/DistributionHSIC.png)  
 - **Feature Selection**  
   - Ordered feature names (from most to least important): ['Instagram', 'STEM', 'not STEM', 'Senior', 'Brawl', 'Not Brawl', 'Asian', 'Band/Orchestra/CG', 'not in Music', 'Female', 'Male', 'Junior', 'Indian', 'Black/Hispanic', 'Sophomore', 'Android', 'iPhone', 'White', 'Freshmen']  
 ## Conclusion:
